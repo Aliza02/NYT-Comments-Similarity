@@ -11,7 +11,7 @@ This project is made for the exam of **Algorithms for Massive Datasets** — MSc
 
 ## About
 
-The goal is to find similar and near-duplicate reader comments from the New York Times 2020 dataset using **MinHashing** and **Locality Sensitive Hashing (LSH)**, following Chapter 3 of *Mining of Massive Datasets* (Leskovec, Rajaraman, Ullman).
+The goal is to find similar and near-duplicate reader comments from the New York Times 2020 dataset using **MinHashing** and **Locality Sensitive Hashing (LSH)**.
 
 With ~19.9 million comments, there are around 450 million possible pairs to compare. Doing it naively is completely infeasible. LSH brings this down to a tiny fraction of comparisons while still finding the similar ones.
 
